@@ -6,7 +6,7 @@ const app = express();
 const cors = require("cors");
 const json = require("body-parser").json;
 const session = require("express-session");
-const { MOGOURI } = require("./config/keys");
+
 app.use(
   cors({
     origin: "http://localhost:3000",
