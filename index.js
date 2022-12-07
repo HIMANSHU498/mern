@@ -86,7 +86,7 @@ const Order = new mongoose.model("Order", orderSchema);
 main().catch((err) => console.log(err));
 
 async function main() {
-  await mongoose.connect(MOGOURI);
+  await mongoose.connect("mongodb+srv://himanshu:8871@ecom.sri4fzz.mongodb.net/test");
   console.log("Server Connected");
 }
 
